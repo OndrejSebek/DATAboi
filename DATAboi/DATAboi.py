@@ -104,6 +104,7 @@ class Data:
         self.out_INP = self.out_INP[int(self.t_x_max):]                             # cutoff
         self.exp_out = self.exp_out[int(self.t_x_max):]
 
+        # console print
         if self.cons_print != 0:
             print('\n', self.out_INP)
             print('\n', self.exp_out)
